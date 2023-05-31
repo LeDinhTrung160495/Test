@@ -1,0 +1,137 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: 'Readex Pro', sans-serif;
+}
+.container {
+  max-width: 1440px;
+  width: 100%;
+  margin: 0 auto;
+  height: 840px;
+}
+.container header {
+  display: flex;
+  background-color: black;
+  height: 108px;
+  color: white;
+}
+header p:nth-child(1) {
+  margin-left: 135px;
+  margin-top: 44px;
+  font-size: 19px;
+}
+.header-menu {
+  margin-left: 667px;
+  margin-top: 44px;
+}
+.header-menu .menu-item {
+  display: flex;
+  list-style: none;
+  column-gap: 53px;
+}
+.header-menu .menu-item li a {
+  text-decoration: none;
+  color: white;
+}
+
+header span {
+  margin-left: 40px;
+  margin-top: 32px;
+  display: inline-block;
+  padding: 12px 24px;
+  border: none;
+
+  color: #ffd600;
+  border-radius: 50px;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 19px;
+}
+
+/* Main */
+main {
+  width: 100%;
+  height: auto;
+  background-color: black;
+  margin: 0 auto;
+  position: relative;
+}
+main .content {
+  height: 773px;
+  position: relative;
+}
+.container1 {
+  height: auto;
+  width: 570px;
+  background-color: black;
+  position: absolute;
+  color: white;
+  left: 135px;
+}
+.container1 h1 {
+  font-size: 88px;
+  line-height: 97px;
+  font-weight: 600;
+  margin-top: 115px;
+  color: #ffffff;
+}
+.container p:nth-child(2) {
+  font-size: 24px;
+  line-height: 39px;
+  font-weight: 400;
+  margin-top: 24px;
+  color: #ffffff;
+}
+.container1 .learn {
+  display: inline-block;
+  padding: 20px 87px;
+  border: none;
+  background-color: #ffd600;
+  color: black;
+  border-radius: 100px;
+  margin-top: 43px;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 21px;
+}
+.container1 .learn1 {
+  margin-left: 16px;
+  display: inline-block;
+  padding: 20px 87px;
+  border: none;
+  background-color: rgba(255, 255, 255, 0.08);
+  color: #ffd600;
+  border-radius: 100px;
+  margin-top: 43px;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 21px;
+}
+.item1 {
+  position: absolute;
+  top: 60px;
+  right: 306px;
+}
+.item2 {
+  position: absolute;
+  top: 85px;
+  right: 197px;
+}
+.item3 {
+  position: absolute;
+  top: 256px;
+  right: 340px;
+}
+.item4 {
+  position: absolute;
+  top: 220px;
+  right: 135px;
+}
+.item5 {
+  position: absolute;
+  top: 423px;
+  right: 386px;
+}
